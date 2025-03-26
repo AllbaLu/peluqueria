@@ -8,7 +8,7 @@ import '../../styles/Home.css';
 export const home = () => {
 
     return (
-       <div className="home h-100">
+       <div className="home h-100" style={{mixBlendMode: "difference"}}>
             <div className="img-home"
                 style={{
                     backgroundImage: `url(${pelu})`,
@@ -18,7 +18,7 @@ export const home = () => {
                     width: "100%",
                     minHeight: "70vh",
                     display: "flex",
-                    justifyContent: "center",
+                    justifyContent: "start",
                     alignItems: "center",
                     textAlign: "center",
                     
@@ -26,7 +26,9 @@ export const home = () => {
                 }}
                 >
 
-                    <h1 className="text mt-5" style={{mixBlendMode: "color-burn"}} >Realza tu Belleza, Eleva tu Estilo</h1>
+                    
+                    <h1 className="display-3  mt-5 ms-5 " style={{mixBlendMode: "color-burn"}} ><em><strong> Realza tu Belleza</strong></em></h1>
+                    
             </div>
 
             <div></div>

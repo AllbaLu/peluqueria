@@ -7,7 +7,7 @@
 export const FormContact = () => {
     return (
 
-        <form className="row g-3 mt-5">
+        <htmlFor className="row g-3 mt-5">
             <h1 className="text-white">
                 contact
             </h1>
@@ -53,6 +53,6 @@ export const FormContact = () => {
             {/* <div className="col-12">
                 <button type="submit" className="btn btn-primary">Sign in</button>
             </div> */}
-        </form>
+        </htmlFor>
     )
 }

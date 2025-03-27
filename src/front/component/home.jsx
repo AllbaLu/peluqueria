@@ -1,5 +1,5 @@
 import pelu from "../img/peluq.png";
-import '../../styles/Home.css';
+import '../../styles/home.css';
 
 
 

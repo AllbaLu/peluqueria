@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import  Home  from './front/component/home';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import Home from './front/component/home';
 import './App.css'
 import { Services } from './front/component/services';
 import { Carrousel } from './front/component/carrousel';
@@ -9,22 +10,27 @@ import { Footer } from './front/component/footer';
 import { About } from './front/component/about';
 
 function App() {
+
+  const basename = "";
+
   
+
 
   return (
     <>
-      <div>
-       <NavBar /> 
-       <Home /> 
-       <About />
-       <Services />
-      <p className="read-the-docs">
-        Peluqueria
-      </p>
-      <Carrousel />
-      <FormContact />
-      </div>
-      <Footer />
+      <BrowserRouter basename={basename}>
+          <NavBar />
+          <Routes>
+            <Route element={<Home />} path="/" />
+            <Route element={<About />} path="/about" />
+            <Route element={<Services />} path="/services" />
+            <Route element={<Carrousel />} path="/carrousel" />
+            <Route element={<FormContact />} path="/formcontact" />
+            <Route element={<h1>Not found!</h1>} />
+          </Routes>
+          <Footer />
+      </BrowserRouter>
+      
     </>
   )
 }

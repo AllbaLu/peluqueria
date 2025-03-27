@@ -1,5 +1,5 @@
 import logo from "../img/logoPeluqueria.jpg"
-
+import { Link } from "react-router-dom";
 
 
 
@@ -19,16 +19,19 @@ export const NavBar = () => {
                 <div className="collapse navbar-collapse d-flex justify-content-end " id="navbarNav">
                     <ul className="navbar-nav ">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <Link to="/" >Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Services</a>
+                            <Link to="/about" >About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">My Work</a>
+                            <Link to="/services" >Services</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#" >Contact</a>
+                            <Link to="/carrousel" >My Work</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/formContact" >Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -36,3 +39,4 @@ export const NavBar = () => {
         </nav>
     )
 }
+export default NavBar;

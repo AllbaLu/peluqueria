@@ -19,19 +19,19 @@ export const NavBar = () => {
                 <div className="collapse navbar-collapse d-flex justify-content-end " id="navbarNav">
                     <ul className="navbar-nav ">
                         <li className="nav-item">
-                            <Link to="/" >Home</Link>
+                            <a href="#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/about" >About</Link>
+                            <a href="#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/services" >Services</Link>
+                            <a href="#services">Services</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/carrousel" >My Work</Link>
+                            <a href="#carrousel">My Works</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/formContact" >Contact</Link>
+                            <a href="#formContact">Contact</a>
                         </li>
                     </ul>
                 </div>

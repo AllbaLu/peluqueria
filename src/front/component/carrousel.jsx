@@ -57,39 +57,42 @@ export const Carrousel = ({direction = "left", speed = 1}) => {
     }
 
     return (
-        <div className="carrousel">
-            {/* carrousel 1 */}
-            <h1 className="text-white">
-                my work
-            </h1>
-            <button className="btn prev" onClick={prevSlide}>&lt;</button>
-            <div className="carrousel-container mt-5"
-                ref={trackRef}
-                onMouseEnter={() => setPaused(true)}
-                onMouseLeave={() => setPaused(false)}
-            >
-                <div className="carrousel-track" 
-                >
-                    {duplicatedImages.map((img, i) => (
-                        <img
-                            key={i}
-                            src={img}
-                            alt={`Imagen ${i + 1}`}
-                            onClick={() => setModalImg(img)}
-                        />
-                    ))}
-                </div>
-            </div>
-            
-            <button className="btn next" onClick={nextSlide}>&gt;</button>
+        <section id="carrousel">
 
-            {/* modal para ampliar imagen  */}
-            {modalImg && (
-                <div className="modal" onClick={() => setModalImg(null)}>
-                    <img src={modalImg} alt="Imagen ampliada" />
+            <div className="carrousel">
+                {/* carrousel 1 */}
+                <h1 className="text-white">
+                    my work
+                </h1>
+                <button className="btn prev" onClick={prevSlide}>&lt;</button>
+                <div className="carrousel-container mt-5"
+                    ref={trackRef}
+                    onMouseEnter={() => setPaused(true)}
+                    onMouseLeave={() => setPaused(false)}
+                >
+                    <div className="carrousel-track" 
+                    >
+                        {duplicatedImages.map((img, i) => (
+                            <img
+                                key={i}
+                                src={img}
+                                alt={`Imagen ${i + 1}`}
+                                onClick={() => setModalImg(img)}
+                            />
+                        ))}
+                    </div>
                 </div>
-            )}
-        </div>
+                
+                <button className="btn next" onClick={nextSlide}>&gt;</button>
+
+                {/* modal para ampliar imagen  */}
+                {modalImg && (
+                    <div className="modal" onClick={() => setModalImg(null)}>
+                        <img src={modalImg} alt="Imagen ampliada" />
+                    </div>
+                )}
+            </div>
+        </section>
     );
 };
 

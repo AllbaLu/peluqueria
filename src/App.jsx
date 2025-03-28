@@ -19,15 +19,12 @@ function App() {
   return (
     <>
       <BrowserRouter basename={basename}>
-          <NavBar />
-          <Routes>
-            <Route element={<Home />} path="/" />
-            <Route element={<About />} path="/about" />
-            <Route element={<Services />} path="/services" />
-            <Route element={<Carrousel />} path="/carrousel" />
-            <Route element={<FormContact />} path="/formcontact" />
-            <Route element={<h1>Not found!</h1>} />
-          </Routes>
+          <NavBar />        
+            <Home />
+            <About />
+            <Services />
+            <Carrousel />
+            <FormContact />         
           <Footer />
       </BrowserRouter>
       

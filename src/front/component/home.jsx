@@ -33,9 +33,7 @@ export const home = () => {
                         
                 </div>
 
-                <div></div>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel culpa totam qui, voluptates ipsa eveniet? Consectetur, sit pariatur sapiente assumenda impedit ea temporibus cum quaerat totam quasi distinctio. Laboriosam, quidem!</div>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in, mollitia accusamus corrupti necessitatibus, officiis pariatur omnis ipsa quos explicabo aut accusantium dignissimos ad, excepturi rerum nulla culpa quasi eligendi?</div>
+                
             </div> 
         </section>
     )

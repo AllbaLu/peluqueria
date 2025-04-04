@@ -7,8 +7,9 @@
 export const Footer = () => {
 
     return (
-        <nav className="navbar navbar-dark bg-dark">
-            <div className="container-fluid">
+        
+        <div className="container-fluid">
+            <nav className="navbar navbar-dark bg-dark">
                 <div className="text-center">
 
                     <span className="navbar-text">
@@ -18,7 +19,7 @@ export const Footer = () => {
                         hecho por @
                     </span>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     )
 }

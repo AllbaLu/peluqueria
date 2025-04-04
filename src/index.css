@@ -8,8 +8,13 @@ html {
   position: relative;
 } 
 body {
-  margin: 0;
-  margin-bottom: 50px;
+  font-family: sans-serif;
   background: #081152;
-  mix-blend-mode: hard-light;
+  color: white;
+  padding: 1rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
 }

@@ -9,7 +9,7 @@ export const FormContact = () => {
         <section id="formContact">
             <div className="container">
 
-                <htmlFor className="row g-3 mt-5">
+                <form className="row g-3 mt-5">
                     <h1 className="text-warning">
                         Contacto
                     </h1>
@@ -30,7 +30,7 @@ export const FormContact = () => {
                         <input type="text" className="form-control" id="inputText" placeholder="Suject"/>
                     </div> 
                     <button onSubmit={''} > Sign in</button>
-                </htmlFor>
+                </form>
             </div>
         </section>
     )

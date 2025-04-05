@@ -1,16 +1,29 @@
 import { useState, useEffect, useRef } from "react"
 import "../../styles/carrousel.css"
 import peluq from "../img/peluq.png"
+import Alv1 from "../img/Alv1.jpg"
+import Alv2 from "../img/Alv2.jpg"
+import Alv3 from "../img/Alv3.jpg"
+import Alv4 from "../img/Alv4.jpg"
+import Alv5 from "../img/Alv5.jpg"
+import Alv6 from "../img/Alv6.jpg"
+import Alv7 from "../img/Alv7.jpg"
+import Alv8 from "../img/Alv8.jpg"
+import Alv9 from "../img/Alv9.jpg"
+import Alv10 from "../img/Alv10.jpg"
+import Alv11 from "../img/Alv11.jpg"
+import Alv13 from "../img/Alv13.jpg"
+
+
+
+
+
+
 
 
 
 const images =[
-    `${peluq}`,
-    `${peluq}`,
-    `${peluq}`,
-    `${peluq}`,
-    `${peluq}`,
-    `${peluq}`,
+    `${Alv1}`, `${Alv2}`,`${Alv4}`, `${Alv5}`,`${Alv6}`,`${Alv7}`,`${Alv8}`,`${Alv9}`,`${Alv3}`,`${Alv10}`,`${Alv11}`,`${Alv13}`
     
 ];
 
@@ -59,9 +72,9 @@ export const Carrousel = ({direction = "left", speed = 1}) => {
     return (
         <section id="carrousel">
 
-            <div className="carrousel">
+            <div className="carrousel mt-4">
                 {/* carrousel 1 */}
-                <h1 className="text-white">
+                <h1 className="text-white mt-4">
                     Mi trabajo
                 </h1>
                 <button className="btn prev" onClick={prevSlide}>&lt;</button>

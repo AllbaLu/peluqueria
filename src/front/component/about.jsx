@@ -1,4 +1,4 @@
-
+import img from "../img/AlvPerfil.jpg"
 
 
 
@@ -7,17 +7,19 @@
 export const About = () => {
 
     return (
-        <section id="about">
-            <div className="container">
+        <section id="about" >
+            <div className="container mt-4">
                 <div className="card bg-transparent text-white"  style={{
                     maxWidth: "100%",
-                    width: "clamp(300px, 90%, 1100px)", // Esto adapta el ancho a distintos tamaños
+                    width: "clamp(350px, 95%, 1100px)", // Esto adapta el ancho a distintos tamaños
                     margin: "0 auto",
-                    mixBlendMode: "hard-light",
-                    border: "none"
+                    border: "none",
+                    padding: "0rem"
                 }}>
                     <div className="card-body ">
-                        <h1 className="card-title text-warning ms-5">Sobre mí</h1>
+                        <h1 className="card-title text-warning" style={{mixBlendMode: "hard-light"}}>Sobre mí</h1>
+                        <img src={img} 
+                        style={{width: "250px", height: "280px", borderRadius: "50%", outline: "auto"}} />
                         <h5 className="card-subtitle mb-2 mt-3 text-light"><em><strong>Experiencia y Pasión por la Belleza Capilar</strong></em> </h5>
                         <p className="card-text" style={{textAlign: "justify"}}>
                         Con más de 40 años de trayectoria en el mundo de la peluquería, 

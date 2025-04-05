@@ -10,7 +10,7 @@
 export const Services = () => {
     return (
         <section id="services">
-            <div className="container">
+            <div className="container mt-4 mb-4">
                 <div className="title text-center">
                     <h1 className="text-white">Servicios</h1>
                 </div>
@@ -76,8 +76,8 @@ export const Services = () => {
                     </div>
                 </div>
 
-                <div className="text-center text-warning mt-4">
-                    <h3>
+                <div className="text-center text-warning mt-4" >
+                    <h3 className="text" style={{textAlign: "justify"}}>
                         Cada cliente es único y merece un servicio de calidad. ¡Permíteme
                         cuidar tu cabello y potenciar tu estilo con profesionalismo y
                         dedicación!

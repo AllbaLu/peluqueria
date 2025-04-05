@@ -18,12 +18,12 @@
     display: flex;
     transition: trasform 0.5s ease-in-out;
     width: max-content;
-    mix-blend-mode: hard-light;
+    
     
 }
 .carrousel-track img {
     width: 300px;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
     margin-right: 10px;

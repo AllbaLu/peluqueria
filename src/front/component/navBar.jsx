@@ -17,19 +17,19 @@ export const NavBar = () => {
                 <div className="collapse navbar-collapse d-flex justify-content-end " id="navbarNav">
                     <ul className="navbar-nav ">
                         <li className="nav-item  mx-2">
-                            <a className="text-warning " href="#home">Home</a>
+                            <a className="text-warning " href="#home">Inicio</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="text-warning " href="#about">About</a>
+                            <a className="text-warning " href="#about">Sobre mí</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="text-warning " href="#services">Services</a>
+                            <a className="text-warning " href="#services">Servicios</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="text-warning " href="#carrousel">My Works</a>
+                            <a className="text-warning " href="#carrousel">Mi trabajo</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="text-warning " href="#formContact">Contact</a>
+                            <a className="text-warning " href="#formContact">Contacto</a>
                         </li>
                     </ul>
                 </div>

@@ -75,7 +75,7 @@ export const Carrousel = ({direction = "left", speed = 1}) => {
             <div className="carrousel mt-4">
                 {/* carrousel 1 */}
                 <h1 className="text-white mt-4">
-                    Mi trabajo
+                    Trabajos
                 </h1>
                 <button className="btn prev" onClick={prevSlide}>&lt;</button>
                 <div className="carrousel-container mt-5"

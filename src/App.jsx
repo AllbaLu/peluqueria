@@ -24,8 +24,9 @@ function App() {
             <About />
             <Services />
             <Carrousel />
-            <FormContact />         
-          
+            <FormContact />  
+                   
+            <Footer />
       </BrowserRouter>
       
     </>

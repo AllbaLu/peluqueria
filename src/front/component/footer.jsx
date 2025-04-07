@@ -19,8 +19,8 @@ export const Footer = () => {
                 <div className="card-header mt-3 fs-2">Álvaro Rodríguez</div>
                 <div className="card-body text-white">
                     <p className="card-text"><i className="fa-solid fa-square-phone"></i> Telf. +57 350 513 7703</p>
-                    <p className="card-text"><i className="fa-solid fa-square-envelope"></i> @gmail.com</p>
-                    <p className="card-text mb-5"><i className="fa-solid fa-location-dot"></i> Calle </p>
+                    <p className="card-text"><i className="fa-solid fa-square-envelope"></i> arodriguezagudelo@gmail.com</p>
+                    <p className="card-text mb-5"><i className="fa-solid fa-location-dot"></i> CRA 34 A # 37-90 conjunto frailejón 3 torre 17 apto 102 Ciudad Verde - Soacha Cundinamarca, Colombia. </p>
                 </div>
             </div>
             <div>

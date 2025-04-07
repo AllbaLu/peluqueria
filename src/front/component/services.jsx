@@ -25,7 +25,7 @@ export const Services = () => {
                             <ul className="list-unstyled text-white">
                                 <li>
                                     <i className="fa-solid fa-scissors" style={{ color: "#FFD43B" }}></i>{" "}
-                                    <strong>Corte de cabello</strong>
+                                    <strong>Diseño de cortes y estilos femeninos</strong>
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-wand-magic-sparkles" style={{ color: "#FFD43B" }}></i>{" "}
@@ -33,7 +33,7 @@ export const Services = () => {
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-palette" style={{ color: "#FFD43B" }}></i>{" "}
-                                    <strong>Coloración y tintes</strong>
+                                    <strong>Diseño de color, tintes - Ultimas tendencias </strong>
                                 </li>
                             </ul>
                         </div>
@@ -47,11 +47,11 @@ export const Services = () => {
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-star-half-stroke" style={{ color: "#FFD43B" }}></i>{" "}
-                                    <strong>Mechas y reflejos</strong>
+                                    <strong>Mechas, balayage y reflejos</strong>
                                 </li>
                                 <li>
                                     <i className="fa-solid fa-stamp" style={{ color: "#FFD43B" }}></i>{" "}
-                                    <strong>Cortes y estilos masculinos</strong>
+                                    <strong>Diseño de cortes y estilos masculinos</strong>
                                 </li>
                             </ul>
                         </div>

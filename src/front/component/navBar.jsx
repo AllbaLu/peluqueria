@@ -1,4 +1,4 @@
-import logo from "../img/AlvLoEd.jpg"
+import logo from "../img/alvLogo.jpg"
 
 
 

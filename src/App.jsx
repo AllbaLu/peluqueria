@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from './front/component/home';
 import './App.css'
@@ -25,9 +27,8 @@ function App() {
             <About />
             <Services />
             <Carrousel />
-            <FormContact />  
-            <WhatsAppButton />
-                   
+            
+            <WhatsAppButton />      
             <Footer />
       </BrowserRouter>
       

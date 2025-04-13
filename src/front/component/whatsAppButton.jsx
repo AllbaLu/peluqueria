@@ -13,15 +13,28 @@ export const WhatsAppButton = () => {
     const whatsAppUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
     return(
-        <div className="container-whatsApp mt-5">
+        <div className="whatsAppButton mt-5">
 
-            <i className="fa-brands fa-whatsapp" >  
+            
             <a  href={whatsAppUrl}
             target="_blank"
-            rel="noopener noreferrer " > 
-                Escribeme - WhatsApp 
+            rel="noopener noreferrer " style={{
+                position: 'fixed',
+                bottom: '20px',
+                right: '20px',
+                backgroundColor: '#25D366',
+                color: 'white',
+                padding: '15px 20px',
+                borderRadius: '50px',
+                textDecoration: 'none',
+                fontWeight: 'bold',
+                boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+                zIndex: 1000,
+                
+              }} > 
+               💬 WhatsApp 
             </a>
-            </i>
+            
                 
         </div>
     )

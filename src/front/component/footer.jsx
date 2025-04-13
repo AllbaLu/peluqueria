@@ -16,7 +16,7 @@ export const Footer = () => {
                     border: "none",
                     padding: "0rem"
                 }} >
-                <div className="card-header mt-3 fs-2">Álvaro Rodríguez</div>
+                <div className="card-header text-warning mt-3 fs-2" style={{mixBlendMode: "difference"}}>Álvaro Rodríguez</div>
                 <div className="card-body text-white">
                     <p className="card-text"><i className="fa-solid fa-square-phone"></i> Telf. +57 350 513 7703</p>
                     <p className="card-text"><i className="fa-solid fa-square-envelope"></i> arodriguezagudelo@gmail.com</p>

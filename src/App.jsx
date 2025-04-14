@@ -27,7 +27,7 @@ function App() {
             <About />
             <Services />
             <Carrousel />
-            
+            <FormContact />
             <WhatsAppButton />      
             <Footer />
       </BrowserRouter>
